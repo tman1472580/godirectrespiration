@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+data/tests.gms
+gdx/__init__.py
+gdx/api.py
+gdx/pycompat.py
+gdx.egg-info/PKG-INFO
+gdx.egg-info/SOURCES.txt
+gdx.egg-info/dependency_links.txt
+gdx.egg-info/requires.txt
+gdx.egg-info/top_level.txt
+gdx/test/__init__.py
+gdx/test/test_gdx.py
