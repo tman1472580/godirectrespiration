@@ -1,0 +1,16 @@
+from godirect import GoDirect
+
+gd = GoDirect(use_ble=True, use_usb=True) //creates a controller 
+
+.list_devices() //list discovered devices (USB and/or BLE). Returns GoDirectDevice objects
+
+* .get_device(threshold=-100) //gets the best or closes devices and there is an RSSI threshold you can set this to another variable
+
+.quit() //shuts down the BLE or USB backend when done
+
+ONdevice
+
+dev = gd.get_device()
+
+
+

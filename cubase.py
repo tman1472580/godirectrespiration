@@ -52,7 +52,7 @@ def main():
         g.open(connection='ble')
     except Exception:
         print("BLE open failed, trying USB…")
-        g.open_usb()
+        g.open(connection='USB')
 
     # Select the sensor channel(s) we want before starting the stream
     g.select_sensors(SENSOR_CHANNELS)
